@@ -1,0 +1,15 @@
+urls:
+  api: 'https://devnet-api.elrond.com'
+  swagger:
+    - 'https://devnet-microservice.elrond.com'
+    - 'https://testnet-microservice.elrond.com'
+    - 'https://microservice.elrond.com'
+  redis: '127.0.0.1'
+features:
+  publicApi: true
+  privateApi: true
+  transactionProcessor: true
+security:
+  jwtSecret: ''
+contracts:
+  pingPong: 'erd1qqqqqqqqqqqqqpgquvt728n40ssd8n2qns9jrlqpwq2jc4rj4cysfuj3ad'
